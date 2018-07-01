@@ -1,0 +1,49 @@
+<!-- Music Player //-->
+<audio controls loop preload="auto" id="music_control" style="width: 200px; margin-top: 20px;">
+<source src="includes/tiffany.mp3" type="audio/mpeg">
+<embed height="50" width="100" src="includes/tiffany.mp3">
+</audio>      
+<script type="text/javscript">
+	audio1 = document.getElementById("music_control");
+	audio1.volume = 0.3;
+</script>
+<br />
+<br />
+<!-- Sidebar Content //-->
+<?
+switch($page) {
+	case "index.php" : 
+?>
+		<h3>自我介紹</h3>
+		<p style="text-align: left">		從事網頁程式設計師有5年經驗，目前接各類網頁專案。有兩年時間在展場兼職於設備組賃公司，架設電視與投影機。
+		</p>
+		<h3>聯絡方法</h3>
+		<p style="text-align: left">
+		聯絡人：林峻緯<br />
+		信箱：<a href="mailto:phoe721@yahoo.com">phoe721@yahoo.com</a>
+		</p>
+		<br /><br />
+		<!-- Google AD //-->
+		<div class="ad1">
+			<? //include("googlead.php"); ?>
+		</div>
+<?
+		break;
+	case "project.php" : 
+		break;
+	case "gallery.php" : 
+?>
+		<div id="thumbnails">
+<? 
+		for ($i = 1; $i <= 24; $i++) {
+			echo "<span class=\"thumbnail\">";
+			echo "<img src=\"gallery/tiffany/" . $i . "_small.jpg\" width=\"60\" />";
+			echo "</span>";
+		} 
+?>
+		</div>
+<?
+		break;
+}
+?>
+

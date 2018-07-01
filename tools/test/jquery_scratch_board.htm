@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="include/jquery-1.9.0.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("p").click(function(){
+    $(this).hide();
+  });
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+</script>
+</head>
+<body>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+<button>Click me</button>
+</body>
+</html>
+
+

@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Body Tags */
+body {
+	margin: 0;
+	padding: 0;
+	font: 1em "微軟正黑體", Arial;
+	line-height: 1.5em;
+	background-color: #EEE;
+}
+a:link, a:visited, a:active { text-decoration: none; }
+a:hover { text-decoration: underline; }
+* { /* border: 1px solid black; */ }
+
+/* Website Wrap */
+#wrap {
+	width: 1024px;
+	margin: 15px auto;
+	background-color: #FFF; 
+	border-radius: 25px;
+	box-shadow: 10px 0 5px #ccc, -10px 0 5px #ccc;
+}
+
+/* Banner */
+#banner {
+	font: 16px "微軟正黑體", Arial;
+	width: 1024px;
+	height: 50px;
+	color: #FFF;
+	background-color: #006;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+#banner a:link, #banner a:visited, #banner a:active {
+	color: #FFF;
+}
+#banner .icon {
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+#title {
+	font: 24px Arial;
+	position: relative;
+	top: 3px;
+	left: 35px;
+	display: inline-block;
+}
+#search {
+	position: relative;
+	top: 13px;
+	left: 150px;
+	display: inline-block;
+	width: 300px; 
+}
+#menu {
+	position: relative;
+	top: 5px;
+	left: 200px;
+	display: inline-block;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background-color: #006;
+}
+#menu ul li {
+	float: left;
+	margin: 0 20px;
+}
+#menu ul li a {
+	color: #FFFFFF;
+}
+#menu ul li a:hover {
+	text-decoration: underline;
+}
+
+#menu ul li ul {
+	display: none;
+	position: absolute;
+	width: 145px;
+	border-bottom: 0;
+	z-index: 10;
+	background-color: transparent;
+}
+#menu ul li ul li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 139px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: #00A;
+}
+#menu ul li ul li:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #00A;
+}
+#menu ul li ul li a {
+	display: block;
+	padding: 0 0 0 5px;
+}
+#menu ul li ul li a:hover {
+	color: #00A;
+	font-weight: normal;
+	text-decoration: none;
+	text-shadow: 1px 1px #CCC;	
+} 
+#menu ul li ul li ul {
+	display: none;
+	position: absolute;
+	width: 145px;
+	margin-left: 142px;
+	margin-top: -23px;
+	border-bottom: 0;
+	z-index: 10;
+	background-color: transparent;
+}
+#menu ul li ul li ul li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 139px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: #00A;
+}
+#menu ul li ul li ul li:hover {
+	background-color: #FFFFFF;
+	border: 2px solid #00A;
+}
+#menu ul li ul li ul li a {
+	display: block;
+	padding: 0 0 0 5px;
+}
+#menu ul li ul li ul li a:hover {
+	color: #00A;
+	font-weight: normal;
+	text-decoration: none;
+	text-shadow: 1px 1px #CCC;	
+} 
+
+/* Breadcrumb */
+#breadcrumb {
+	line-height: 16px;
+	padding: 15px 0 0px 25px;
+	color: #006;
+}
+#breadcrumb a:link, #breadcrumb a:visited, #breadcrumb a:active {
+	color: #006;
+}
+
+/* Main Content */
+#container {
+	width: 994px;
+	margin: 0;
+	padding: 15px;
+	overflow: auto;
+	color: #000;
+	background-color: #FFF;
+	background-image: url("../images/background.png");
+}
+#container .fullpage {
+	width: 945px;
+}
+#content {
+	float: left;
+	width: 660px;
+	min-height: 800px;
+	padding: 20px;
+	background: rgba(255, 255, 153, 0.8);
+	border-radius: 25px;
+}
+#content a:link, #content a:visited, #content a:active {
+	color: blue;
+}
+#content iframe {
+	border: 0;
+	border-radius: 15px;
+	width: 945px;
+	height: 800px;
+	background: rgba(255, 255, 255, 1);
+}
+#content .special {
+	text-decoration: underline;
+	font-weight: bold;
+}
+#content .pageTitle {
+	font-size: 25px;
+	font-weight: bold;
+}
+#content .pageSubtitle {
+	font-size: 22px;
+	font-weight: bold;
+}
+#content .pageDate {
+	position: relative;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+}
+#content p {
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	line-height: 1.5em;
+}
+#content .preview {
+	position: relative;
+	margin: 0px;
+	right: 40px;
+	float: right;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #555;
+}
+#content .description {
+	position: relative;
+	padding-top: 20px;
+	font-size: 20px;
+	height: 200px;
+}
+#content p .gallery {
+	position: relative;
+	left: 130px;
+	top: 20px;
+	border-radius: 15px;
+	box-shadow: 10px 10px 10px #555;
+}
+#content .terminal {
+	font: 15px "Courier New", "微軟正黑體";
+	margin: 10px;
+	padding: 15px;
+	color: #FFF;
+	background-color: #000;
+	border-radius: 15px;
+}
+#content .terminal pre {
+	margin: 0;
+	padding: 0;
+}
+#content .terminal .note {
+	color: #5858FA;
+}
+#content .terminal .sideNote {
+	padding-left: 20px;
+	color: #FE2E2E;
+}
+#content .terminal .command {
+	color: #FF0;
+}
+#content .terminal .highlight {
+	color: #5858FA;
+}
+#content .comment {
+	text-align: right;
+	margin-right: 10px;
+	color: blue;
+}
+#content .imageComment {
+	text-align: left;
+	margin-left: 20px;
+	color: blue;
+}
+#content .example {
+	margin: 15px;
+}
+#content .fullPageImage {
+	position: relative;
+	left: 20px;
+	width: 900px;
+	border-radius: 25px;
+}
+#sidebar {
+	position: relative;
+	float: right;
+	width: 245px;
+	min-height: 800px;
+	padding: 15px;
+	background: rgba(255, 255, 153, 0.8);
+	border-radius: 25px;
+}
+#sidebar audio {
+	position: relative;
+	left: 25px;
+}
+#sidebar #thumbnails {
+	position: relative;
+	left: 25px;
+}
+#sidebar .thumbnail img{
+	border: 1px solid black;
+	margin: 2px; 
+	vertical-align: middle;
+	border-radius: 10px;
+	opacity: 0.7;
+}
+#sidebar .thumbnail img:hover{
+	opacity: 1;
+}
+#sidebar .ad1 {
+	position: relative;
+	top: 100px;
+	padding: 20px;
+}
+
+/* Footer */
+#footer {
+	clear: both;
+	width: 1024px;
+	height: 60px;
+	background-color: #006;
+	color: #fff;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+#footer ul {
+	position: relative;
+	left: 300px;
+	top: 18px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer ul li {
+	position: relative;
+	float: left;
+	color: #FFF;
+	margin-right: 20px;
+}
+#footer ul li a {
+	color: #FFFFFF;
+}
+
+#footer .home_icon {
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+}
+#footer .email_icon {
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+}
+#footer .facebook_icon {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}

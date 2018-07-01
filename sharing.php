@@ -1,0 +1,23 @@
+<? include("includes/setup.php"); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		<? include("includes/header.php"); ?>
+	</head>
+    <body>
+        <div id="wrap">
+            <div id="banner">
+				<? include("includes/banner.php"); ?>
+			</div>
+			<div id="breadcrumb"><? include("includes/breadcrumb.php"); ?></div>
+            <div id="container">
+                <div id="content" class="fullpage">
+					<? include($sharing); ?>
+				</div>
+            </div>
+            <div id="footer">
+				<? include("includes/footer.php"); ?>
+			</div>
+        </div>
+    </body>
+</html>

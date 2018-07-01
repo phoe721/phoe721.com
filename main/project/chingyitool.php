@@ -1,0 +1,1 @@
+<img src="images/chingyitool1.png" class="fullPageImage" />
