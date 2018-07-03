@@ -1,4 +1,5 @@
 #ignore all projects
 project/*
 #ingore phpmyadin
+myadmin
 myadmin/*
