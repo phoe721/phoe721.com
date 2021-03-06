@@ -1,1 +1,0 @@
-<img src="images/elementsource1.png" class="fullPageImage" />

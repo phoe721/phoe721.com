@@ -1,1 +1,0 @@
-<img src="images/victekmachinery1.png" class="fullPageImage" />

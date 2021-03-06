@@ -1,7 +1,7 @@
 <!-- Meta Tags //-->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?=$title?></title>
-<script type="text/javascript" src="includes/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="includes/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="includes/menu.js"></script>
 <? 
 if ($page == "gallery.php") {
