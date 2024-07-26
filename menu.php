@@ -7,5 +7,4 @@
 		</ul>
 	</li>
 	<li><a href="sharing.php">教學</a></li>
-	<li><a href="gallery.php">相簿</a></li>
 </ul>

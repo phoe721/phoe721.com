@@ -31,8 +31,4 @@
 		</ul>
 	</li>
 	<li>
-	<li>
-		<img src="images/album_icon.png" class="icon" alt="相簿" /> 
-		<a href="gallery.php">相簿</a>
-	</li>
 </ul>
